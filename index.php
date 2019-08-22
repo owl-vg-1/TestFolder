@@ -39,6 +39,7 @@ echo $time."Пузырек <br>";
 $time_start1 = microtime(1);
 for ($i=0; $i < 1000000 ; $i++) { 
 sort($arrayName);
+shuffle($arrayName);
 }
 $time_end1 = microtime(1);
 $time1 = $time_end1 - $time_start1;
